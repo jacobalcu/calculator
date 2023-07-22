@@ -1,3 +1,38 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.calculator,
+.screen,
+.controls {
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.calculator {
+  background-color: bisque;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.screen {
+  background-color: aquamarine;
+  flex: 0.1;
+}
+
+.controls {
+  background-color: aqua;
+  flex: 1;
+}
