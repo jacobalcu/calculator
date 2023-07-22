@@ -12,7 +12,8 @@ body {
 
 .calculator,
 .screen,
-.controls {
+.controls,
+button {
   border-radius: 8px;
   box-sizing: border-box;
   padding: 10px;
@@ -34,5 +35,52 @@ body {
 
 .controls {
   background-color: aqua;
+  flex: 1;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  gap: 8px;
+}
+
+.numbers-man {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.manipulate {
+  display: flex;
+  gap: 8px;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ops {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  gap: 8px;
+}
+
+/* .numbers-man {
+  display: flex;
+  /* flex-wrap: wrap; */
+/* gap: 8px;
+  flex: 1;
+} */
+
+/* .numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+} */
+button {
+  height: 50px;
+  border: none;
   flex: 1;
 }
